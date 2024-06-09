@@ -48,6 +48,6 @@ document.getElementById('form').addEventListener('submit', function(event) {
         phoneInput.classList.add('is-invalid');
     } else {
         phoneInput.classList.remove('is-invalid');
-        window.location.href = 'http://localhost:63342/test-project/thx-page.html';
+        window.location.href = '/test-project/thx-page.html';
     }
 });
