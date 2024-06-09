@@ -3,9 +3,10 @@ body {
     font-family:  "Open Sans", sans-serif;
 }
 
-body.open {
+html, body.open {
     overflow: hidden;
 }
+
 header {
     width: 100vw;
     height: 74px;
