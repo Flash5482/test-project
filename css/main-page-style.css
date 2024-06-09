@@ -215,7 +215,7 @@ section {
 }
 
 .main .main__img img {
-    width: 90%;
+    width: 90% !important;
 }
 
 .main .main__btn {
