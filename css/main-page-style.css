@@ -133,18 +133,17 @@ section {
     height: 3px;
 }
 
-nav {
+#nav {
     position: absolute;
     width: 345px;
     height: 100vh;
     background: #f8f9fa;
-    right: -100%;
     transition: 100ms;
     z-index: 3;
     display: none;
 }
 
-nav.open {
+#nav.open {
     display: block;
     right: 0;
 }
