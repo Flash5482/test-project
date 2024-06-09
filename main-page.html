@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/main-page-style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body id="body">
+<header class="header d-flex justify-content-between align-items-center">
+    <div class="header__logo d-flex justify-content-center align-items-center">
+        <div class="logo__img">
+            <img src="/img/logo-icon.svg" alt="">
+        </div>
+        <div class="logo__title">
+            поліса-онлайн
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="header__button">
+            <button>Подзвонити</button>
+        </div>
+        <div class="header__nav" id="nav-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+<nav class="nav-menu" id="nav">
+    <div class="nav-item">
+        Головна
+    </div>
+    <div class="nav-item d-flex justify-content-between align-items-center">
+        <div>Застрахувати</div>
+        <img src="/img/arrow-down.svg" alt="">
+    </div>
+    <div class="nav-item d-flex justify-content-between align-items-center">
+        <div>Страховий випадок</div>
+
+        <img src="/img/arrow-down.svg" alt="">
+
+    </div>
+    <div class="nav-item">
+        Про компанію
+    </div>
+    <div class="nav-item d-flex justify-content-between align-items-center">
+        <div>Корисна інформація</div>
+
+        <img src="/img/arrow-down.svg" alt="">
+
+    </div>
+    <div class="nav-item">
+        Контакти
+    </div>
+
+    <div class="btn-group btn-group-toggle mt-2" data-toggle="buttons">
+        <label class="btn btn-light active mr-2">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> UA
+        </label>
+        <label class="btn btn-light">
+            <input type="radio" name="options" id="option2" autocomplete="off"> RU
+        </label>
+    </div>
+</nav>
+
+<div id="hide-content"></div>
+
+<div class="content">
+    <section class="main">
+        <h1 class="main__title text-center">
+            Надійна страховка - <br> <span class="highlight">крок до безпеки:</span> <br> Приєднуйтесь до нас
+        </h1>
+        <p class="main__subtitle text-center">
+            Захистіть себе та своїх близьких разом із нами – надійною страховою компанією. Ми готові стати вашим надійним партнером, який забезпечить надійний захист та фінансову безпеку у разі непередбачуваних ситуацій.
+            Придбати страховку
+        </p>
+
+        <div class="main__img d-flex justify-content-center align-items-center">
+            <img src="/img/main.svg" alt="">
+        </div>
+
+        <div class="main__btn d-flex justify-content-center align-items-center">
+            <button class="btn btn-success">Придбати страховку</button>
+        </div>
+
+        <div class="main__products">
+            <h1 class="products__title text-center">Наші страхові продукти</h1>
+            <div class="row justify-content-center align-items-center">
+
+                <div class="col-6">
+                    <div class="products__item">
+                        <img src="/img/product-1.svg" alt="">
+                        <div>автоцивілка</div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="products__item">
+                        <img src="/img/product-2.svg" alt="">
+                        <div>КАСКО</div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="products__item">
+                        <img src="/img/product-3.svg" alt="">
+                        <div>Зелена карта</div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="products__item">
+                        <img src="/img/product-4.svg" alt="">
+                        <div>Майно</div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="products__item">
+                        <img src="/img/product-5.svg" alt="">
+                        <div>Туристичне страхування</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <h1>Переваги купувати онлайн</h1>
+
+        <div class="advantages__items">
+            <div class="advantages__item">
+                <img src="/img/adv-1.svg" alt="">
+                <div class="pl-2">Миттєве отримання страхового покриття;</div>
+            </div>
+            <div class="advantages__item">
+                <img src="/img/adv-2.svg" alt="">
+                <div class="pl-2">5% знижку на інший вид страхування при одночасному укладенні договорів;</div>
+            </div>
+            <div class="advantages__item">
+                <img src="/img/adv-3.svg" alt="">
+                <div class="pl-2">7% знижку на всі види страхування</div>
+            </div>
+            <div class="advantages__item">
+                <img src="/img/adv-4.svg" alt="">
+                <div class="pl-2">Безкоштовна доставка.</div>
+            </div>
+            <div class="advantages__item">
+                <img src="/img/adv-5.svg" alt="">
+                <div class="pl-2">АВТОДОПОМОГА в подарунок при купівлі КАСКО-онлайн;</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h1>Про нас</h1>
+        <p class="pt-3">«Polisa-Online» є унікальним онлайн-сервісом, який революціонізує спосіб придбання страхового полісу для українців. Тепер вам не потрібно виходити зі зручності своєї квартири, будинку або офісу, для того щоб забезпечити себе надійним страховим покриттям. За декілька </p>
+        <a href="#">Читати повністю</a>
+
+        <div class="about-us__img">
+            <img src="/img/about-us.jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="order-call">
+        <h1>Замовити дзвінок</h1>
+        <p>Якщо Ви маєте питання, пропозиції або відгуки.
+            Будь ласка, заповніть форму нижче, і ми зв'яжемося з вами найближчим часом.</p>
+
+        <form class="row g-3 needs-validation" id="form" novalidate>
+            <div class="col-md-12">
+                <input type="text" placeholder="ваше ім'я" class="form-control" required>
+                <div class="invalid-feedback">
+                    Це поле обовязкове!
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="text"  placeholder="Номер телефона" class="form-control" name="phone" id="phone" required>
+                <div class="invalid-feedback">
+                   Будь-ласка введіть номер в форматі +380 ** *** ** **.
+                </div>
+            </div>
+
+
+            <div class="d-flex  justify-content-center align-items-center">
+                    <button class="btn order-call__btn btn-success" id="order_btn" href="/thx-page" >Замовити дзвінок</button>
+            </div>
+        </form>
+
+    </section>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Include Cleave.js library from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js"></script>
+<!-- Include Cleave.js phone-type-formatter for US -->
+<script src="https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/addons/cleave-phone.us.js"></script>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
