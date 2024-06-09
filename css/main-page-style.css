@@ -3,7 +3,7 @@ body {
     font-family:  "Open Sans", sans-serif;
 }
 
-html, body.open {
+body.open {
     overflow: hidden;
 }
 
@@ -141,9 +141,11 @@ nav {
     right: -100%;
     transition: 100ms;
     z-index: 3;
+    display: none;
 }
 
 nav.open {
+    display: block;
     right: 0;
 }
 
