@@ -69,3 +69,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Update on resize
     window.addEventListener('resize', updateProductText);
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const seeMoreButton = document.querySelector('.about-us__btn');
+    const fullText = document.querySelector('.text-full');
+    const shortText = document.querySelector('.text-short');
+
+    seeMoreButton.addEventListener('click', function() {
+        fullText.style.display = 'block';
+        shortText.style.display = 'none';
+        seeMoreButton.style.display = 'none';
+    });
+});
