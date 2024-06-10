@@ -425,10 +425,8 @@ section {
     }
 
     .order-call__btn-wrap {
-        display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 15px !important;
     }
 }
 
