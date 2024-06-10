@@ -346,6 +346,15 @@ section {
     align-items: center;
 }
 
+
+
+.order-call__btn-wrap {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 15px !important;
+}
+
 .order-call__btn {
     padding: 3px 40px 3px 40px !important;
 }
@@ -413,6 +422,13 @@ section {
 
     .order-call_img {
         display: none;
+    }
+
+    .order-call__btn-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 15px !important;
     }
 }
 
