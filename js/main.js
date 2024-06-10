@@ -51,3 +51,21 @@ document.getElementById('form').addEventListener('submit', function(event) {
         window.location.href = '/test-project/thx-page.html';
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const productText = document.getElementById('secondProduct');
+
+    function updateProductText() {
+        if (window.innerWidth <= 600) {
+            productText.textContent = 'КАСКО';
+        } else {
+            productText.textContent = 'КАСКО страхування';
+        }
+    }
+
+    // Initial check
+    updateProductText();
+
+    // Update on resize
+    window.addEventListener('resize', updateProductText);
+});
